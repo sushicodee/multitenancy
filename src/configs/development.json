@@ -1,0 +1,23 @@
+{
+    "environment":"development",
+    "host":"localhost",
+    "PORT":"5000",
+    "JWT_SECRET":"secret",
+    "JWT_SECRET_ADMIN":"adminsecret",
+    "MONGO_URL":"mongodb+srv://sushicodeehapi:VGZsySdnHHSqxeS1@cluster0.fdomo.mongodb.net/hapi-db-test?retryWrites=true&w=majority",
+    "MONGO_OPTIONS":{
+        "useNewUrlParser": true,
+        "useUnifiedTopology": true,
+        "useCreateIndex": true,
+        "useFindAndModify": false,
+        "autoIndex": true,
+        "poolSize": 10,
+        "bufferMaxEntries": 0,
+        "connectTimeoutMS": 10000,
+        "socketTimeoutMS": 30000
+    },
+    "ADMIN":{
+        "username":"admin",
+        "password":"admin"
+    }
+}
